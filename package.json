@@ -1,5 +1,26 @@
 {
-	"name":"com-fs-plugin-sample",
-	"version":"1.0.1",
-	"private":"true"
+  "name": "com.fs.plugin.sample",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fspaans/sample-plugin.git"
+  },
+  "version": "1.0.5",
+  "description": "Sample plugin for fs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run sample"
+  },
+  "keywords": [
+    "sampleplugin",
+	"fs"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "author": "FS",
+  "license": "ISC"
 }
