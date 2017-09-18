@@ -1,10 +1,10 @@
 {
-  "name": "com.fs.plugin.sample",
+  "name": "com-fs-plugin-sample",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fspaans/sample-plugin.git"
   },
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Sample plugin for fs",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,9 @@
   },
   "keywords": [
     "sampleplugin",
-	"fs"
+	"fs",
+	"ecosystem:cordova",
+	"cordova-android"
   ],
   "engines": {
     "cordovaDependencies": {
