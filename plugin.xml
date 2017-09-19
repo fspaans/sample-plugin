@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    id="com-fs-plugin-sample"
+    id="com.fs.plugin.SamplePlugin"
     version="1.0.0">
 
-    <name>Sample</name>
+    <name>SamplePlugin</name>
 
   <description>
     Cordova plugin example
   </description>
 
-  <asset src="www/Sample.js" target="plugins/Sample.js" />
+  <asset src="www/SamplePlugin.js" target="plugins/SamplePlugin.js" />
 
   <engines>
     <engine name="cordova" version=">=3.0.0" />
@@ -18,12 +18,12 @@
   <!-- android -->
   <platform name="android">
     <config-file target="res/xml/config.xml" parent="/*">
-	    <feature name="Sample">
-	        <param name="android-package" value="com.fs.plugin.Sample"/>
+	    <feature name="SamplePlugin">
+	        <param name="android-package" value="com.usefulio.plugin.SamplePlugin"/>
 	    </feature>
     </config-file>
 
-    <source-file src="src/android/com/fs/plugin/Sample.java" target-dir="src/com/fs/plugin" />
+    <source-file src="src/android/com/usefulio/plugin/SamplePlugin.java" target-dir="src/com/usefulio/plugin" />
   </platform>
 
   <!-- more platforms here -->
