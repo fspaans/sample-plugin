@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
-    id="com.fs.plugin.SamplePlugin"
+    id="com.fs.plugin.sample"
     version="1.0.0">
 
     <name>SamplePlugin</name>
